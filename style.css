@@ -1,10 +1,14 @@
+:root{
+	--color: grey;
+	--background: black;
+}
 *{
 	margin: 0;
 	padding: 0;
 	font-family: "sans-serif";
 }
 body{
-	background-color: black;
+	background-color: var(--background);
 }
 .container{
 	display: flex;
@@ -15,8 +19,42 @@ body{
 .frame{
 	width: 480px;
 	height: 480px;
-	overflow: auto;
+	overflow: hidden;
+	position: relative;
 }
 .slider{
 	display: flex;
+	transition: ease .4s;
 }
+.navBtnWrapper{
+	display:flex;
+	gap: .2rem;
+	position: absolute;
+	top: 430px;
+	left: 220px;
+}
+.navBtn{
+	height: .5rem;
+	width: .5rem;
+	border: solid 2px var(--color);
+	border-radius: 15px;
+}
+.navBtn:hover{
+	background-color: var(--color);
+}
+.photoOne{
+	transform: translateX(0);
+}
+.photoTwo{
+	transform: translateX(-480px);
+}
+.photoThree{
+	transform: translateX(-960px);
+}
+.photoFour{
+	transform: translateX(-1440px);
+}
+
+
+
+
