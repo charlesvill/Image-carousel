@@ -1,0 +1,22 @@
+{
+  "name": "@charlesvill/image-carousel",
+  "version": "1.0.0",
+  "description": "Minimalist picture carousel with navigation icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesvill/Image-carousel.git"
+  },
+  "keywords": [
+    "image-carousel"
+  ],
+  "author": "Charles Villalpando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesvill/Image-carousel/issues"
+  },
+  "homepage": "https://github.com/charlesvill/Image-carousel#readme"
+}
